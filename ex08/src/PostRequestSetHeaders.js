@@ -23,7 +23,7 @@ class PostRequestSetHeaders extends React.Component {
         };
         const headers = {
             'Content-Type': 'application/json',
-            'Authoriyation': 'Bearer my-token',
+            'Authorization': 'Bearer my-token',
             'My-Custom-Header': 'footbar'
         };
         axios.post('https://reqres.in/api/articles', article, { headers })
